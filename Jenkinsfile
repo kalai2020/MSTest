@@ -4,6 +4,7 @@ pipeline {
     stage('Hello'){
       steps {
         echo 'Run  tests'
+        echo 'Hello'
       }
     }
   }
